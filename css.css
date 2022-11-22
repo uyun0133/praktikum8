@@ -1,0 +1,51 @@
+.header{
+     background-color: lightblue;
+     height: 100px;
+}
+
+.main{
+     background-color: lightcoral;
+     height: 500px;
+     display: flex;
+}
+
+.footer{
+     background-color: lightblue;
+     height: 100px;
+}
+
+.container{
+     display: flex;
+     flex-direction: column;
+}
+
+.aside{
+     background-color: salmon;
+     width: 20%;
+}
+
+.article{
+     background-color: beige;
+     width: 80%;
+}
+
+.bingkai{
+     display: flex;
+     justify-content: center;
+}
+
+.bingkai img{
+     width: 300px;
+     margin: 0,5em;
+}
+
+.article{
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+}
+
+h3{
+     text-align: center;
+     color: black;
+}
